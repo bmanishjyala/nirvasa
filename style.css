@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif!important;
+}
+nav{
+    padding: 15px 0 0 0;
+
+}
+.logo{
+    height: 50px;
+}
+.divCenter>input{
+width: 370px;
+padding: 6px 40px 6px 15px;
+font-size: 16px;
+border-radius: 20px;
+font-style: italic;
+border:1px solid #727376;
+color: #727376;
+
+height: 34px;
+}
+.divCenter>img{
+    margin-left: -38px;
+    
+}
+input:focus{
+    outline: none;
+}
+.iconSize{
+    width: 24px;
+    height: 24px;
+}
+
+/* next section */
+.section_title{
+    margin-top: 25px ;
+    padding: 0;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: #52a94a;
+    line-height: 36px;
+}
+.section_subtitle{
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    color: #727376;
+}
+.section_subtitle{
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    color: #727376;
+}
+
+
+/* flip cards css */
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 300px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+
+  
+  /* Style the back side */
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+
+.productTitle{
+    text-decoration: none;
+    color: #727376;
+    font-weight: 600;
+    font-size: 16px;
+    height: 50px;
+    text-align: center;
+}
+.productTitle:hover{
+    color: #52a94a;
+}
+
+
+/* authentic to the core */
+.autheimg{
+    width: 100px;
+    height: 100px;
+    filter: grayscale(100);
+}
+
+.primary{
+    filter: none;
+    color: #52a94a;
+
+    
+}
+.colt:hover .autheimg{
+    filter: none;
+}
+.colt:hover .coltTitle{
+    color: #52a94a;
+}
+.attcToggle{
+    display: flex;
+    justify-content: center;
+}
+.left{
+    width: 50%;
+    background: #52a94a;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 35px;
+}
+
+
+/* passionate to serve */
+.serveBox{
+    width: 260px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxShadow{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.serveBox:hover .boxShadow{
+    box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12)!important;
+}
+.serveBox:hover .boxTitle{
+    color: #52a94a;
+}
+.serverBoxImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.serveBox h5{
+   margin-top: 25px; 
+}
+/* blog section */
+.blogSub >a{
+ text-decoration: none;
+ color: grey;
+ font-size: 18px;
+}
+.blogId{
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+    top: 0;
+    width: 70px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 1;
+    padding: 6px;
+    display: flex;
+    flex-flow: column;
+    font-weight: 700;
+}
+
+
+.counters-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: #52a94a;
+    font-size: 28px;
+   min-width: 150px;
+    padding:5px 10px ;
+
+    font-weight: 700;
+    margin: 15px 0 0;
+    position: relative;
+    box-shadow: 0 1px 6px #0000001a;
+    background: #fff;
+    min-height: 100px;}
+
+    
+.counters-box>h4{
+    font-size: 21px;
+}
+.availBox{
+    display: flex;
+    justify-content: center;
+}
+.availLogo{
+    width:160px;
+    height: 85px;
+}
+
+/* foterTop */
+#colophon{
+    background: #e4f1df;
+    padding: 30px 0;
+    color: #4a4b4d!important;
+    font-size: 14px;
+    float: left;
+    width: 100%;  
+}
+.footerTopTitle{
+font-weight: bold;
+font-size: 15px;
+}
+.footer-menu-list{
+    list-style: none;
+    
+}
+.footer-social{
+    margin-left: -40px;
+    list-style: none;
+    display: flex;
+    
+}
+.footer-social>li{
+    margin: 0px 8px;
+    width: 35px;
+    height: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.footer-social>li>a{
+    color: black;
+}
+
+.footer-menu-list a{
+    color: #4a4b4d;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #52a94a;
+}
+
+/* footer bottom */
+.ftr-green-header {
+    background: #52a94a;
+    color: #fff;
+    font-size: 13px;
+    padding:40px 100px;
+    text-align: justify;
+    margin-bottom: 25px;
+}
+
+/* categroies section */
+.categories{
+    text-decoration: none;
+    color: #52a94a;
+}
+
+.navLinks{
+    list-style: none;
+    margin: 2px 15px!important;
+}
+.navLinks>a{
+    text-decoration: none;
+    color: #727376;
+    font-size: 14px;
+}
+.navLinks>a:hover{
+    color: #52a94a;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+.d-row{
+    display: flex;
+    justify-content: center;
+}
+.low{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* resposive design */
+@media screen and (max-width:750px){
+    .autheimg{
+        max-width: 60px;
+        max-height: 60px;
+    }
+        .coltTitle{
+            font-size: 12px;
+            text-align: center;
+        }
+        .serverBoxImg{
+            width: 100px;
+            height: 100px;
+        }
+        .secnav{
+            display: none!important;
+        }
+        .left{
+            width: 60%!important;
+            font-size: 12px;
+        }
+        .right{
+            width: 40%;
+            
+        }
+        .ftr-green-header{
+            padding: 10px 20px;
+        }
+        .counters-box>h4{
+            font-size: 16px;
+            text-align: center;
+        }
+        .low{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+}
+@media screen and (max-width:500px){
+    .autheimg{
+        max-width: 30px;
+        max-height: 30px;
+    }
+        .coltTitle{
+            font-size: 10px;
+            text-align: center;
+        }
+     
+      .attcToggle{
+          display: flex;
+          flex-direction: column;
+      }
+      .left{
+          padding-top: 30px;
+          width: 100%!important;
+      }
+      .right{
+          width: 100%;
+      }
+      .shadow-sm {
+          width: 18rem!important;
+      }
+}
